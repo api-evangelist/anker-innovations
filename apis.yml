@@ -1,8 +1,12 @@
 aid: anker-innovations
 name: Anker Innovations
-description: 'Anker Innovations is a company surfaced as a portfolio company of idg-capital and added
-  to the API Evangelist network as a stub for enrichment. Sector: consumer-technology. This profile is
-  a lead awaiting the enrichment pipeline.'
+description: 'Anker Innovations is a global consumer-electronics company headquartered in Shenzhen,
+  China, known for its Anker charging and power products, Soundcore audio, eufy smart-home and
+  security devices, Nebula projectors, and Anker SOLIX portable power and solar storage. Through
+  the Anker Open Platform (developer.anker.com) the company exposes a developer surface that lets
+  partners integrate and control Anker devices from their own applications via API and SDK, gated
+  behind an Open Platform login. This profile was surfaced as a portfolio company of IDG Capital
+  and is being enriched with the API Evangelist pipeline.'
 url: https://raw.githubusercontent.com/api-evangelist/anker-innovations/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +14,31 @@ x-backed-by:
 - idg-capital
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
 modified: '2026-07-17'
+image: https://developer.anker.com/anker.logo.png
 tags:
 - Company
 - Consumer Technology
+- Consumer Electronics
+- Smart Home
+- IoT
+- Audio
+- Charging
+- Device Management
+- Energy Storage
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +48,21 @@ maintainers:
 common:
 - type: Website
   url: https://anker.com/
+- type: DeveloperPortal
+  name: Anker Open Platform
+  url: https://developer.anker.com/
+- type: Blog
+  url: https://www.anker.com/blogs
+- type: Support
+  url: https://service.anker.com
+- type: PrivacyPolicy
+  url: https://www.anker.com/policies/privacy-policy
+- type: TermsOfService
+  url: https://www.anker.com/policies/terms-of-service
+- type: DomainSecurity
+  url: security/anker-innovations-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
